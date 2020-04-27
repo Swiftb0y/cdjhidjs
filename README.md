@@ -27,3 +27,9 @@ as its Javascript interpreter,
 we are limited to ES7 (and no transpilation using Babel because of the first
 limitation) and can't assume the presence of a NodeJS or Browser-like
 environment. 
+5. Synchronous code only:
+Since we are limited to ES7, there is no `async`/`await` syntax. Using Promises
+with callback chains gets complicated and can lead to difficult to debug
+bugs very fast. Apart from that, this library doesn't contain much code that
+could benefit from using Promises. For this reason, all code in this library is
+entirely promise-free.
