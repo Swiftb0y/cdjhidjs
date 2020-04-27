@@ -20,7 +20,8 @@ imposed on the design of this library:
 
 1. No complicated toolchains for building
 2. Minimal external runtime dependencies (testing framework is allowed)
-3. V4 compatibility:
+3. ES6 import/exports only
+4. V4 compatibility:
 Since Mixxx is based on Qt (v5.12 at the time of writing) and uses QJSEngine/V4
 as its Javascript interpreter,
 we are limited to ES7 (and no transpilation using Babel because of the first
