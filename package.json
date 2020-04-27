@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/Swiftb0y/cdjhidjs/issues"
   },
-  "homepage": "https://github.com/Swiftb0y/cdjhidjs#readme"
+  "homepage": "https://github.com/Swiftb0y/cdjhidjs#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^25.4.0"
+  }
 }
