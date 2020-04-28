@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Swiftb0y/cdjhidjs#readme",
   "devDependencies": {
-    "mocha": "^7.1.2"
+    "mocha": "^7.1.2",
+    "watch": "^1.0.2"
   }
 }
