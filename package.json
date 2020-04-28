@@ -4,7 +4,8 @@
   "description": "Javascript library for interfacing with the newest lineup of PioneerDJ devices via HID",
   "main": "index.js",
   "scripts": {
-    "test": "npx mocha"
+    "test": "npx mocha",
+    "watch": "npx watch 'npx eslint src/ & npx mocha test/' src/ test/ --wait=5"
   },
   "repository": {
     "type": "git",
