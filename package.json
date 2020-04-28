@@ -4,7 +4,7 @@
   "description": "Javascript library for interfacing with the newest lineup of PioneerDJ devices via HID",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "npx mocha"
   },
   "repository": {
     "type": "git",
@@ -21,8 +21,7 @@
     "url": "https://github.com/Swiftb0y/cdjhidjs/issues"
   },
   "homepage": "https://github.com/Swiftb0y/cdjhidjs#readme",
-  "dependencies": {},
   "devDependencies": {
-    "jest": "^25.4.0"
+    "mocha": "^7.1.2"
   }
 }
